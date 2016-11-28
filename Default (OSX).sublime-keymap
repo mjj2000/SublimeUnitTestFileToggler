@@ -1,0 +1,7 @@
+[
+    // Toggle source and test file view
+    {
+        "keys": ["super+period"],
+        "command": "unit_test_file_toggle"
+    }
+]
