@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tools",
+    "children": [
+      {
+        "id": "SublimeUnitTestFileToggler",
+        "caption": "SublimeUnitTestFileToggler",
+        "children": [
+          {
+            "caption": "Toggle source and test file",
+            "command": "unit_test_file_toggle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "SublimeUnitTestFileToggler",
+            "children": [
+              {
+                "caption": "Settings - Default",
+                "command": "open_file",
+                "args": {"file": "${packages}/SublimeUnitTestFileToggler/SublimeUnitTestFileToggler.sublime-settings"}
+              },
+              {
+                "caption": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
