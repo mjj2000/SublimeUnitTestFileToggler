@@ -2,7 +2,7 @@
 Unit Test File Toggler
 ==========================
 
-Switching file view between sorce file and test file with hotkey.
+Switching file view between source file and test file with hotkey.
 
 - OSX: `command` + `.`
 - Windows / Linux: `control` + `.`
